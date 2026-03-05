@@ -1,14 +1,14 @@
 version: "1"
 
 package:
-  id: opencode
+  id: io.opencode
   name: OpenCode
-  version: 1.2.15.0
+  version: 1.2.15.1
   kind: app
   description: |
     OpenCode AI 是一款基于人工智能的智能编程助手，为开发者提供代码补全、代码生成、代码优化和问题解答等功能。它能够理解多种编程语言，帮助提高编程效率，减少重复性工作，让编程变得更加轻松高效。
 
-command: [/opt/apps/opencode/files/opencode/node_modules/.bin/opencode]
+command: [/opt/apps/opencode/files/node_modules/.bin/opencode]
 
 base: org.deepin.base/25.2.1
 
